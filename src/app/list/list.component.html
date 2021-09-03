@@ -1,1 +1,19 @@
-<p>list works!</p>
+<table class="table table-striped table-dark">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Address</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  *ngFor="let resto of ListRestos">
+        <th scope="row">{{resto.id}}</th>
+        <td>{{resto.name}}</td>
+        <td>{{resto.address}}</td>
+        <td>{{resto.email}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
