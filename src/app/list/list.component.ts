@@ -21,6 +21,12 @@ export class ListComponent implements OnInit {
       
     });
   }
+  Deleteresto(id:number){
+    
+    this.resto.Delete(id).subscribe((res)=>{
+      this.ListRestos.splice(id-1,1);
+    });
+  }
   ngOnDestroy(): void {
     //when close page 
     if (this.restoSub) {

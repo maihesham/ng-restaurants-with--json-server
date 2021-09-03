@@ -12,3 +12,7 @@ h2{
 .row{
 margin-top: 10px;;
 }
+i{
+    cursor: pointer;
+    color: #7e2cbb;
+}

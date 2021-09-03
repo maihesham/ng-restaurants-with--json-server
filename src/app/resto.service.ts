@@ -15,4 +15,7 @@ export class RestoService {
   SaveRest(Data:any){
      return this.http.post(this.URL,Data)
   }
+  Delete(id:number){
+    return this.http.delete(`${this.URL}/${id}`)
+  }
 }
