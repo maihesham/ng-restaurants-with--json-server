@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+h2{
+
+    color: #7e2cbb;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.btn{
+    background-color: #7e2cbb;
+    color: white;
+}
+.row{
+margin-top: 10px;;
+}

@@ -21,5 +21,13 @@ export class ListComponent implements OnInit {
       
     });
   }
+  ngOnDestroy(): void {
+    //when close page 
+    if (this.restoSub) {
+      this.restoSub.unsubscribe();
+    }
+
+    
+  }
 
 }

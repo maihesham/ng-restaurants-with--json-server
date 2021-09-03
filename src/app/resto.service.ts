@@ -12,4 +12,7 @@ export class RestoService {
   Observable<Array<restaurant>>{
     return this.http.get<Array<restaurant>>(this.URL);
   }
+  SaveRest(Data:any){
+     return this.http.post(this.URL,Data)
+  }
 }
