@@ -1,0 +1,60 @@
+{
+  "restaurants": [
+    {
+      "name": "KFC2qq",
+      "address": "helpoiles",
+      "email": "KFC@Gmail.com",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Mac",
+      "address": "helpoiles",
+      "email": "Mac@Gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "hunger station",
+      "address": "helpoiles",
+      "email": "hungerstation@Gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "said hanfe",
+      "address": "helpoiles",
+      "email": "saidhanfe@Gmail.com"
+    },
+    {
+      "name": "subeay",
+      "address": "20 streetel mansora",
+      "email": "xzxz@gmol.com345",
+      "id": 6
+    },
+    {
+      "name": "Mai Hesham",
+      "address": "here",
+      "email": "xzxz@gmol.com345",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "name": "Mai",
+      "password": "123456",
+      "email": "Mai@Gmail.com",
+      "id": 1
+    },
+    {
+      "name": "memmo",
+      "email": "xzxz@gmol.com345",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "menna",
+      "email": "KFC@Gmail.com",
+      "password": "123456",
+      "id": 3
+    }
+  ]
+}
