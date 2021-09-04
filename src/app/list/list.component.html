@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-lg-12">
-    <h2>Add Resturnat</h2>
+    <h2>Resturnat</h2>
 </div>
 <div class="col-lg-12">
   <table class="table ">
@@ -11,6 +11,7 @@
         <th scope="col">Address</th>
         <th scope="col">Email</th>
         <th scope="col"></th>
+        <th scope="col"></th>
       </tr>
     </thead>
     <tbody>
@@ -20,6 +21,10 @@
         <td>{{resto.address}}</td>
         <td>{{resto.email}}</td>
         <td><i (click)="Deleteresto(resto.id)" class="fa fa-trash" style="font-size: 30px;"></i></td>
+        <td> <a routerLink="/Update/{{resto.id}}">
+          <i  class="fa fa-edit" style="font-size: 30px;"></i>
+        </a>
+       </td>
       </tr>
       
     </tbody>

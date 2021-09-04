@@ -11,7 +11,7 @@ const routes: Routes = [
   },{
     path:"List",component:ListComponent
   },{
-    path:"Update",component:UpdateComponent
+    path:"Update/:id",component:UpdateComponent
   },{
     path:"Login",component:LoginComponent
   },{

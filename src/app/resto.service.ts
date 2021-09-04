@@ -18,4 +18,11 @@ export class RestoService {
   Delete(id:number){
     return this.http.delete(`${this.URL}/${id}`)
   }
+  GetResto(id:number){
+     return this.http.get<restaurant>(`${this.URL}/${id}`);
+  }
+  Edit(id:number,data:any){
+    console.log(data);
+    return this.http.put(`${this.URL}/${id}`,data);
+  }
 }
