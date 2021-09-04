@@ -26,7 +26,7 @@ export class UpdateComponent implements OnInit {
   }
   EditRestoFunction(){
 this.RestoService.Edit(this.route.snapshot.params.id,this.EditResto.value).subscribe((res)=>{
-  this.routerNave.navigate(['List']);
+  this.routerNave.navigate(['']);
 });
   }
 }

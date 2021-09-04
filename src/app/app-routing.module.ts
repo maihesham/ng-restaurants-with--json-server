@@ -9,13 +9,14 @@ const routes: Routes = [
   {
     path:"Add",component:AddComponent
   },{
-    path:"List",component:ListComponent
-  },{
     path:"Update/:id",component:UpdateComponent
   },{
     path:"Login",component:LoginComponent
   },{
     path:"Register",component:RegisterComponent
+  }
+  ,{
+    path:"",component:ListComponent
   }
 ];
 

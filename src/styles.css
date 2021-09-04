@@ -9,6 +9,9 @@ h2{
     background-color: #7e2cbb;
     color: white;
 }
+.btn>a{
+    color: white;
+}
 .row{
 margin-top: 10px;;
 }
